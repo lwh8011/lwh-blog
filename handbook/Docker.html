@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>前端Docker那些事 | 谁养掉毛的猫</title>
+    <meta name="generator" content="VuePress 1.9.8">
+    <link rel="icon" href="/lwh-blog/tiger.png">
+    <meta name="description" content="记录工作、记录日常">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/lwh-blog/assets/css/0.styles.a1dea741.css" as="style"><link rel="preload" href="/lwh-blog/assets/js/app.78067e05.js" as="script"><link rel="preload" href="/lwh-blog/assets/js/3.e3a1807a.js" as="script"><link rel="preload" href="/lwh-blog/assets/js/1.5f815b79.js" as="script"><link rel="preload" href="/lwh-blog/assets/js/11.f9006f70.js" as="script"><link rel="prefetch" href="/lwh-blog/assets/js/10.314f42f6.js"><link rel="prefetch" href="/lwh-blog/assets/js/12.8de62f98.js"><link rel="prefetch" href="/lwh-blog/assets/js/13.1dd904f1.js"><link rel="prefetch" href="/lwh-blog/assets/js/14.0ded9f0a.js"><link rel="prefetch" href="/lwh-blog/assets/js/15.188e1d49.js"><link rel="prefetch" href="/lwh-blog/assets/js/16.72128711.js"><link rel="prefetch" href="/lwh-blog/assets/js/17.dbcb184d.js"><link rel="prefetch" href="/lwh-blog/assets/js/18.c8702d51.js"><link rel="prefetch" href="/lwh-blog/assets/js/4.9136a982.js"><link rel="prefetch" href="/lwh-blog/assets/js/5.bdf5bec2.js"><link rel="prefetch" href="/lwh-blog/assets/js/6.3fd0a10d.js"><link rel="prefetch" href="/lwh-blog/assets/js/7.9963bb41.js"><link rel="prefetch" href="/lwh-blog/assets/js/8.b601f399.js"><link rel="prefetch" href="/lwh-blog/assets/js/9.0185671d.js">
+    <link rel="stylesheet" href="/lwh-blog/assets/css/0.styles.a1dea741.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar" data-v-7dd95ae2><div data-v-7dd95ae2><div class="password-shadow password-wrapper-out" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>谁养掉毛的猫</h3> <p class="description" data-v-59e6cb88>记录工作、记录日常</p> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>谁养掉毛的猫</span>
+          
+        <span data-v-59e6cb88>2022 - </span>
+        2023
+      </a></span></div></div> <div class="hide" data-v-7dd95ae2><header class="navbar" data-v-7dd95ae2><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/lwh-blog/" class="home-link router-link-active"><img src="/lwh-blog/head.jpg" alt="谁养掉毛的猫" class="logo"> <span class="site-name">谁养掉毛的猫</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/lwh-blog/" class="nav-link"><i class="undefined"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/lwh-blog/categories/前端/" class="nav-link"><i class="undefined"></i>
+  前端
+</a></li><li class="dropdown-item"><!----> <a href="/lwh-blog/categories/node/" class="nav-link"><i class="undefined"></i>
+  node
+</a></li><li class="dropdown-item"><!----> <a href="/lwh-blog/categories/运维/" class="nav-link"><i class="undefined"></i>
+  运维
+</a></li><li class="dropdown-item"><!----> <a href="/lwh-blog/categories/文集/" class="nav-link"><i class="undefined"></i>
+  文集
+</a></li></ul></div></div><div class="nav-item"><a href="/lwh-blog/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="https://github.com/lwh8011" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="/lwh-blog/handbook/resume.html" class="nav-link"><i class="undefined"></i>
+  技能
+</a></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-7dd95ae2></div> <aside class="sidebar" data-v-7dd95ae2><div class="personal-info-wrapper" data-v-1fad0c41 data-v-7dd95ae2><img src="/lwh-blog/head.jpg" alt="author-avatar" class="personal-img" data-v-1fad0c41> <h3 class="name" data-v-1fad0c41>
+    谁养掉毛的猫
+  </h3> <div class="num" data-v-1fad0c41><div data-v-1fad0c41><h3 data-v-1fad0c41>8</h3> <h6 data-v-1fad0c41>文章</h6></div> <div data-v-1fad0c41><h3 data-v-1fad0c41>10</h3> <h6 data-v-1fad0c41>标签</h6></div></div> <ul class="social-links" data-v-1fad0c41></ul> <hr data-v-1fad0c41></div> <nav class="nav-links"><div class="nav-item"><a href="/lwh-blog/" class="nav-link"><i class="undefined"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/lwh-blog/categories/前端/" class="nav-link"><i class="undefined"></i>
+  前端
+</a></li><li class="dropdown-item"><!----> <a href="/lwh-blog/categories/node/" class="nav-link"><i class="undefined"></i>
+  node
+</a></li><li class="dropdown-item"><!----> <a href="/lwh-blog/categories/运维/" class="nav-link"><i class="undefined"></i>
+  运维
+</a></li><li class="dropdown-item"><!----> <a href="/lwh-blog/categories/文集/" class="nav-link"><i class="undefined"></i>
+  文集
+</a></li></ul></div></div><div class="nav-item"><a href="/lwh-blog/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="https://github.com/lwh8011" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="/lwh-blog/handbook/resume.html" class="nav-link"><i class="undefined"></i>
+  技能
+</a></div> <!----></nav> <!----> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>前端Docker那些事</h3> <!----> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>谁养掉毛的猫</span>
+          
+        <span data-v-59e6cb88>2022 - </span>
+        2023
+      </a></span></div></div> <div data-v-7dd95ae2><div data-v-7dd95ae2><main class="page"><section style="display:;"><div class="page-title"><h1 class="title">前端Docker那些事</h1> <div data-v-8a445198><i class="iconfont reco-account" data-v-8a445198><span data-v-8a445198>谁养掉毛的猫</span></i> <i class="iconfont reco-date" data-v-8a445198><span data-v-8a445198>2023/2/16</span></i> <i class="iconfont reco-eye" data-v-8a445198><span id="/lwh-blog/handbook/Docker.html" data-flag-title="Your Article Title" class="leancloud-visitors" data-v-8a445198><a class="leancloud-visitors-count" style="font-size:.9rem;font-weight:normal;color:#999;"></a></span></i> <i class="tags iconfont reco-tag" data-v-8a445198><span class="tag-item" data-v-8a445198>docker</span></i></div></div> <div class="theme-reco-content content__default"><div class="custom-block warning"><p class="title"></p><p>随着容器化技术盛行，Docker在前端领域也有着越来越广泛的应用；传统的前端部署方式需要我们将项目打包生成一系列的静态文件，然后上传到服务器，配置nginx文件；如果我们使用容器化部署，将部署操作都命令化，集中成一个脚本就可以完成原来复杂的部署过程。本文从Docker基础开始，来认识Docker的各种命令操作。</p></div><h2 id="docker简介"><a href="#docker简介" class="header-anchor">#</a> Docker简介</h2> <p>从<strong>Docker</strong>的logo我们也能看出，Docker的思想来自于集装箱；各个应用程序相当于不同的集装箱，每个应用程序有着不同的应用环境，比如python开发的应用需要服务器部署一套python的开发环境，nodejs开发的应用需要服务器部署nodejs的环境，不同环境之间有可能还会彼此冲突，Docker可以帮助我们隔离不同的环境。</p> <p><img src="https://s1.ax1x.com/2023/02/16/pSHWvSf.jpg" alt="docker"></p> <p>接触过虚拟机的同学就发问了，这不是虚拟机干的活么。是的，虚拟机可以很好的帮我们隔离各个环境，我们可以在windows上运行macos、ubuntu等虚拟机，也可以在macos上安装windows的虚拟机；不过传统的虚拟机技术是虚拟一整套硬件后，在其上运行完整的操作系统，在该系统上再运行所需应用进程，这样导致一台电脑只能运行数量较少的虚拟机。</p> <p>但是Docker使用的容器技术比虚拟机更加的轻便和快捷。容器内的应用进程直接运行于宿主的内核，容器内没有自己的内核，而且也没有进行硬件虚拟。因此容器要比传统虚拟机更为轻便<br>
+对比总结：</p> <table><thead><tr><th>特性</th> <th style="text-align:center;">容器</th> <th style="text-align:right;">虚拟机</th></tr></thead> <tbody><tr><td>启动</td> <td style="text-align:center;">秒级</td> <td style="text-align:right;">分钟级</td></tr> <tr><td>硬盘使用</td> <td style="text-align:center;">一般为MB</td> <td style="text-align:right;">一般为GB</td></tr> <tr><td>系统资源</td> <td style="text-align:center;">0~5%</td> <td style="text-align:right;">5~15%</td></tr> <tr><td>性能</td> <td style="text-align:center;">接近原生</td> <td style="text-align:right;">弱于原生</td></tr> <tr><td>系统支持量</td> <td style="text-align:center;">单机支持上千个容器</td> <td style="text-align:right;">一般几十个</td></tr></tbody></table> <h3 id="docker优势"><a href="#docker优势" class="header-anchor">#</a> <strong>Docker优势</strong></h3> <p><strong>docker有以下优势：</strong></p> <ul><li>更高效的利用系统资源</li> <li>更快速的启动时间</li> <li>一致的运行环境</li> <li>持续交付和部署</li> <li>更轻松的迁移</li> <li>更轻松的维护和扩展</li></ul> <p><strong>docker通常用于如下场景：</strong></p> <ul><li>web应用的自动化打包和发布</li> <li>自动化测试和持续集成、发布</li> <li>在服务器环境中部署和调整数据库或其他的后台应用</li> <li>从头编译或者扩展现有的OpenShift或Cloud Foundry平台来搭建自己的PaaS环境</li></ul> <h3 id="基本概念"><a href="#基本概念" class="header-anchor">#</a> <strong>基本概念</strong></h3> <ul><li>镜像（Image）</li> <li>容器（Container）</li> <li>仓库（Repository）</li></ul> <p>首先我们来弄懂<strong>镜像</strong>的概念，Docker镜像是一个特殊的文件系统，除了提供容器运行时所需的程序、库、资源、配置等文件外，还包含了一些为运行时准备的一些配置参数（如匿名卷、环境变量、用户等）。镜像不包含任何动态数据，其内容在构建之后也不会被改变。</p> <p>如果有装系统经验的童鞋，可以把Docker镜像理解为一个操作系统的镜像（ISO文件），它是一个固定的文件，从一个镜像中，我们可以装到很多电脑上，变成一个个的操作系统（相当于容器），每个系统都是相同的，不过可以选择定制化安装。</p> <p>和系统镜像不同的是，Docker镜像并不是像ISO文件那样整体打包成一个文件的，而是设计成了分层存储的架构，它并不是由一个文件组成，而是由多层文件联合组成。构建镜像时，会一层层的构建，前面一层是后面一层的基础。每一层构建完就不会再发生改变，后一层上的任何改变只发生在自己这一层。</p> <p>其次是<strong>容器</strong>的概念，从编程的角度看，镜像和容器的关系更像是类和实例的关系；从一个镜像可以启动一个或者多个容器；镜像是静态的定义，容器是镜像运行时的实体。容器可以被创建、启动、停止、删除、暂停等。</p> <p>前面讲过镜像使用的是分层存储，容器也是如此。每一个容器运行时，是以镜像为基础层，在其上创建一个当前容器的存储层，我们可以称这个为容器运行时读写而准备的存储层为<strong>容器存储层</strong>。</p> <p>容器存储层的生存周期和容器一样，容器消亡时，容器存储层也随之消亡。因此，任何保存于容器存储层的信息都会随容器删除而丢失。</p> <p><img src="https://s1.ax1x.com/2023/02/16/pSHIvqO.png" alt="容器存储层"></p> <p>因此容器不应该向其存储层内写入任何数据，容器存储层要保持无状态化。所有的文件写入操作，都应该使用数据卷（Volume）、或者绑定宿主目录，在这些位置的读写会跳过容器存储层。</p> <p>最后是**仓库（Repository）**的概念，我们构建一个镜像后，可以在本地运行，但是如果我们想要给网络上的其他用户使用，就要一个集中存储和分发镜像的服务器，仓库就是这样一个工具，有点类似Github。</p> <p>镜像仓库Repository是同一类镜像的集合，包含了不同tag（标签）的Docker镜像，比如<strong>ubuntu</strong>是仓库的名称，它里面有不同的tag，比如<strong>16.04、18.04</strong>，我们从镜像仓库中来获取镜像时可以通过&lt;仓库名&gt;:&lt;标签&gt;的格式来指定具体版本的镜像，比如<strong>ubuntu18.04</strong>；如果忽略标签，用<strong>latest</strong>作为默认标签。</p> <h2 id="镜像"><a href="#镜像" class="header-anchor">#</a> 镜像</h2> <p>镜像是Docker的三个基本组件之一；运行容器需要本地有相应的镜像，如果没有会从远程仓库下载；那么我们来看下如何操作镜像。<br></p> <h3 id="查找镜像"><a href="#查找镜像" class="header-anchor">#</a> <strong>查找镜像</strong></h3> <p>我们可以从<code>Docker Hub</code>来搜索镜像(请在服务器环境下操作)</p> <div class="language- extra-class"><pre class="language-text"><code>docker search ubuntu
+</code></pre></div><p>查找结果:<br> <img src="https://s1.ax1x.com/2023/02/16/pSH7RxI.png" alt="docker"></p> <p>查找的列表中包含了以下几个字段：</p> <ul><li>NAME：镜像仓库源的名称</li> <li>DESCRIPTION: 镜像的描述</li> <li>STARS：类似Github里面的star</li> <li>OFFICIAL：是否docker官方发布</li> <li>AUTOMATED：自动构建</li></ul> <h3 id="获取镜像"><a href="#获取镜像" class="header-anchor">#</a> <strong>获取镜像</strong></h3> <p>我们要获取镜像，可以通过<code>docker pull</code>命令，它的格式如下：</p> <div class="language- extra-class"><pre class="language-text"><code>docker pull &lt;repository&gt;:&lt;tag&gt;
+</code></pre></div><p>还是以ubuntu为例：</p> <div class="language- extra-class"><pre class="language-text"><code>[root@localhost dockerfile]# docker pull ubuntu:16.04
+16.04: Pulling from library/ubuntu
+58690f9b18fc: Pull complete 
+b51569e7c507: Pull complete 
+da8ef40b9eca: Pull complete 
+fb15d46c38dc: Pull complete 
+Digest: sha256:0f71fa8d4d2d4292c3c617fda2b36f6dabe5c8b6e34c3dc5b0d17d4e704bd39c
+Status: Downloaded newer image for ubuntu:16.04
+docker.io/library/ubuntu:16.04
+</code></pre></div><p>我们看到最后一行docker.io显示这是从官方仓库拉取的。</p> <p>从下载过程我们可以看出我们上面说的分层存储的概念，即镜像是由多层存储构成；下载也是一层层的去下载，而不是单独一个文件；因此如果下载中有某个层已经被其他镜像下载过，则会显示Already exists。下载过程中给出了每一层的ID的前12位，下载结束后给出镜像完整的sha256摘要。</p> <p>Docker的镜像仓库分为官方仓库和非官方，官方的镜像就是从Docker Hub拉取的；如果想要从第三方的镜像仓库获取，可以在仓库名称前加上仓库的服务地址：</p> <div class="language- extra-class"><pre class="language-text"><code>docker pull &lt;Docker Registry地址:端口号&gt;&lt;repository&gt;:&lt;tag&gt;
+</code></pre></div><h3 id="列出镜像"><a href="#列出镜像" class="header-anchor">#</a> <strong>列出镜像</strong></h3> <div class="language- extra-class"><pre class="language-text"><code>[root@localhost dockerfile]# docker image ls
+REPOSITORY            TAG       IMAGE ID       CREATED         SIZE
+fscmdtest             latest    722b57b36507   2 hours ago     231MB
+mycentos              0.2       ef51baa09668   6 hours ago     656MB
+gaoqiaoys/diytomcat   1         bc0c2086cc34   7 days ago      858MB
+diytomcat             latest    bc0c2086cc34   7 days ago      858MB
+mysql                 5.7       c20987f18b13   14 months ago   448MB
+centos                7         eeb6ee3f44bd   17 months ago   204MB
+centos                latest    5d0da3dc9764   17 months ago   231MB
+ubuntu                16.04     b6f507652425   17 months ago   135MB
+portainer/portainer   latest    580c0e4e98b0   23 months ago   79.1MB
+</code></pre></div><p>列表包含了仓库名、标签、镜像ID、创建时间和所占用空间；我们看到有两个centos的镜像，不过两个镜像有不同的标签。</p> <p>ls命令默认会列出所有的镜像，但是当本地镜像比较多的时候不方便查看，有时候我们希望列出部分的镜像，除了可以通过linux的grep命令，还可以在ls命令后面跟上参数：</p> <div class="language- extra-class"><pre class="language-text"><code>[root@localhost dockerfile]# docker image ls centos
+REPOSITORY   TAG       IMAGE ID       CREATED         SIZE
+centos       7         eeb6ee3f44bd   17 months ago   204MB
+centos       latest    5d0da3dc9764   17 months ago   231MB
+</code></pre></div><h3 id="删除镜像"><a href="#删除镜像" class="header-anchor">#</a> <strong>删除镜像</strong></h3> <p>我们可以通过<strong>rm命令</strong>删除本地镜像：</p> <div class="language- extra-class"><pre class="language-text"><code>docker rmi -f 镜像ID 镜像ID 镜像ID 镜像ID #rmi(remove image) 删除指定的镜像
+docker rmi -f $(docker images -aq) #删除全部镜像
+</code></pre></div><p>这里的&lt;镜像&gt;，可以是镜像短ID、镜像长ID、镜像名或者镜像摘要；docker image ls列出来的已经是短ID了，我们还可以取前三个字符进行删除；</p> <h3 id="构建镜像"><a href="#构建镜像" class="header-anchor">#</a> <strong>构建镜像</strong></h3> <p>除了使用官方的镜像，我们可以构建自己的镜像；一般都在其他的镜像基础上进行构建，比如node、nginx等；构建镜像需要用到<strong>Dockerfile</strong>，它是一个文本文件，文本内容包含了一条条构建镜像所需的指令和说明。</p> <p>我们在一个空白目录新建一个Dockerfile：</p> <div class="language- extra-class"><pre class="language-text"><code>[root@localhost /]# cd home/
+[root@localhost home]# mkdir mynginx
+[root@localhost home]# cd mynginx
+[root@localhost mynginx]# touch Dockerfile
+</code></pre></div><p>我们向Dockerfile写入以下内容：</p> <div class="language- extra-class"><pre class="language-text"><code>FROM nginx
+RUN echo '&lt;h1&gt;Hello, This is My Nginx&lt;/h1&gt;' &gt; /usr/share/nginx/html/index.html
+</code></pre></div><p>这里的Dockerfile很简单，就两个命令：FROM和RUN，我们在Dockerfile里面对命令进行详细的介绍；我们使用build命令构建镜像，它的格式为：</p> <div class="language- extra-class"><pre class="language-text"><code>docker build [选项] &lt;上下文路径/URL/-&gt;
+</code></pre></div><p>因此，我们在Dockerfile所在的目录执行命令：</p> <div class="language- extra-class"><pre class="language-text"><code>docker build -t mynginx:v3 .
+</code></pre></div><p>运行命令:</p> <div class="language- extra-class"><pre class="language-text"><code>[root@localhost mynginx]# docker build -t mynginx:v3 .
+Sending build context to Docker daemon  2.048kB
+Step 1/2 : FROM nginx
+latest: Pulling from library/nginx
+a2abf6c4d29d: Pull complete 
+a9edb18cadd1: Pull complete 
+589b7251471a: Pull complete 
+186b1aaa4aa6: Pull complete 
+b4df32aa5a72: Pull complete 
+a0bcbecc962e: Pull complete 
+Digest: sha256:0d17b565c37bcbd895e9d92315a05c1c3c9a29f762b011a10c54a66cd53c9b31
+Status: Downloaded newer image for nginx:latest
+ ---&gt; 605c77e624dd
+Step 2/2 : RUN echo '&lt;h1&gt;Hello, This is My Nginx&lt;/h1&gt;' &gt; /usr/share/nginx/html/index.html
+ ---&gt; Running in 7725a7906894
+Removing intermediate container 7725a7906894
+ ---&gt; 2210d8ab747a
+Successfully built 2210d8ab747a
+Successfully tagged mynginx:v3
+</code></pre></div><p>构建成功后，我们列出所有的镜像就能看到刚刚构建的mynginx了。在上面的命令中，我们发现最后有一个.，它表示了当前目录，如果不写这个目录会报错提示；如果对应上面的格式，它其实就是上下文路径，那这个上下文路径是做什么用的呢？要理解这个路径的作用，我们首先要来理解Docker的架构。</p> <p>Docker是一个典型的C/S架构的应用，它可以分为<strong>Docker客户端</strong>（平时敲的Docker命令）和<strong>Docker服务端</strong>（Docker守护进程）。Docker客户端通过REST API和服务端进行交互，docker客户端每发送一条指令，底层都会转化成REST API调用的形式发送给服务端，服务端处理客户端发送的请求并给出响应。</p> <p>因此表面上看我们好像在本机上执行各种Docker的功能，实际上都是都是在Docker服务端完成的，包括Docker镜像的构建、容器创建、容器运行等工作都是Docker服务端来完成的，Docker客户端只是承担发送指令的角色。
+<img src="https://s1.ax1x.com/2023/02/17/pSbzJbj.png" alt="docker"></p> <p>理解了Docker的架构就很容器理解Docker构建镜像的工作原理了，它的流程大致如下：</p> <ol><li>执行build命令;</li> <li>Docker客户端会将构建命令后面指定的上下文路径下的所有文件打包成一个tar包，发送给Docker服务端;</li> <li>Docker服务端收到客户端发送的tar包，然后解压，根据Dockerfile里面的指令进行镜像的分层构建；</li></ol> <p>因此上下文路径本质上就是指定服务端上Dockerfile中指令工作的目录；比如我们在Dockerfile中经常需要拷贝代码到镜像中去，因此会这么写：</p> <div class="language- extra-class"><pre class="language-text"><code>COPY ./package.json /app/
+</code></pre></div><p>这里要复制的package.json文件，并不一定在docker build命令执行的目录下，也不一定是在Dockerfile文件同级目录下，而是docker build命令指定的上下文路径目录下的package.json。</p> <h2 id="容器"><a href="#容器" class="header-anchor">#</a> 容器</h2> <p>介绍了镜像，我们到了Docker第三个核心概念了：容器。容器是镜像的运行时的实例，我们可以从一个镜像上启动一个或多个容器。</p> <p>对容器的管理包括创建、启动、停止、进入、导入导出和删除等，我们分别来看下每个操作的具体命令以及效果。</p> <h3 id="创建启动容器"><a href="#创建启动容器" class="header-anchor">#</a> <strong>创建启动容器</strong></h3> <p>新建并启动一个容器用的命令是<code>docker run</code>，它后面有时候会带上有很长很长的选项，不过其基本的语法如下：</p> <div class="language- extra-class"><pre class="language-text"><code>docker run [选项] 镜像名称 [命令] [参数...]
+</code></pre></div><p>它可以带上一些常见的选项：</p> <ul><li>-d：容器在后台运行</li> <li>-t：为容器重新分配一个伪输入终端，通常与-i同时使用</li> <li>-i：以交互模式运行容器，通常与-t同时使用</li> <li>-P：随机端口映射</li> <li>-p：指定端口映射</li> <li>--name：为容器指定一个名称</li> <li>-e：设置环境变量</li> <li>--dns：指定容器使用的DNS服务器</li> <li>-m：设置容器使用内存最大值</li> <li>--net=&quot;bridge&quot;: 指定容器的网络连接类型，支持 bridge/host/none/container: 四种类型；</li> <li>--link：链接另一个容器</li> <li>-v：绑定卷</li> <li>--rm：退出容器后删除该容器<br>
+我们创建一个hello world容器：</li></ul> <div class="language- extra-class"><pre class="language-text"><code>docker run hello-world
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>[root@localhost ~]# docker run hello-world
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+2db29710123e: Pull complete 
+Digest: sha256:2498fce14358aa50ead0cc6c19990fc6ff866ce72aeb5546e1d59caac3d0d60f
+Status: Downloaded newer image for hello-world:latest
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the &quot;hello-world&quot; image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+</code></pre></div><p>但是这样创建的容器只能看到一堆的打印说明，我们不能对容器进行任何操作，我们可以加上-it选项（-i和-t的简写），来让Docker分配一个终端给这个容器：</p> <div class="language- extra-class"><pre class="language-text"><code>[root@localhost ~]# docker image ls
+REPOSITORY            TAG       IMAGE ID       CREATED         SIZE
+mynginx               v3        2210d8ab747a   22 hours ago    141MB
+fscmdtest             latest    722b57b36507   25 hours ago    231MB
+mycentos              0.2       ef51baa09668   29 hours ago    656MB
+gaoqiaoys/diytomcat   1         bc0c2086cc34   8 days ago      858MB
+diytomcat             latest    bc0c2086cc34   8 days ago      858MB
+nginx                 latest    605c77e624dd   13 months ago   141MB
+mysql                 5.7       c20987f18b13   14 months ago   448MB
+hello-world           latest    feb5d9fea6a5   17 months ago   13.3kB
+centos                7         eeb6ee3f44bd   17 months ago   204MB
+centos                latest    5d0da3dc9764   17 months ago   231MB
+ubuntu                16.04     b6f507652425   17 months ago   135MB
+portainer/portainer   latest    580c0e4e98b0   23 months ago   79.1MB
+[root@localhost ~]# docker run -it ubuntu:16.04 /bin/bash
+root@0bfeadb36d75:/# pwd
+/
+root@0bfeadb36d75:/# ls
+bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+root@0bfeadb36d75:/# exit
+exit
+</code></pre></div><p>我们可以在容器内部进行操作了，退出终端可以使用<strong>exit</strong>命令或者<strong>ctrl+d</strong>；我们退出容器后如果查看运行中的容器，发现并没有任何容器信息。</p> <p>一般我们都是需要让容器在后台运行，因此我们加上-d：</p> <div class="language- extra-class"><pre class="language-text"><code>[root@localhost ~]# docker run -itd ubuntu:16.04 /bin/bash
+6d837008de8b761c973bd4b60ced42cbc04f39f28e03489a18b93eef8e4755f1
+</code></pre></div><p>容器不再以命令行的方式呈现了，而是直接丢出一长串的数字字母组合，这是容器的唯一id；再用ps命令查看运行状态的容器，看到我们的容器已经在后台默默运行了：</p> <div class="language- extra-class"><pre class="language-text"><code>[root@localhost ~]# docker ps
+CONTAINER ID   IMAGE                 COMMAND        CREATED          STATUS          PORTS                                       NAMES
+6d837008de8b   ubuntu:16.04          &quot;/bin/bash&quot;    54 seconds ago   Up 53 seconds                                               eloquent_feynman
+d37ca6bc4fa1   portainer/portainer   &quot;/portainer&quot;   2 weeks ago      Up 6 hours      0.0.0.0:8088-&gt;9000/tcp, :::8088-&gt;9000/tcp   clever_chatterjee
+</code></pre></div><p>当使用run命令创建容器时，Docker在后台进行了如下的操作：</p> <ul><li>检查本地是否存在指定的镜像，不存在就从 registry 下载</li> <li>利用镜像创建并启动一个容器</li> <li>分配一个文件系统，并在只读的镜像层外面挂载一层可读写层</li> <li>从宿主主机配置的网桥接口中桥接一个虚拟接口到容器中去</li> <li>从地址池配置一个 ip 地址给容器</li> <li>执行用户指定的应用程序</li> <li>执行完毕后容器被终止</li></ul> <h3 id="终止容器"><a href="#终止容器" class="header-anchor">#</a> <strong>终止容器</strong></h3> <p>我们可以使用stop命令来终止容器的运行；如果容器中的应用终结或者报错时，容器也会自动终止；我们可以使用ps命令查看到的容器短id来终止对应的容器：</p> <div class="language- extra-class"><pre class="language-text"><code>[root@localhost ~]# docker stop 6d837008de8b
+</code></pre></div><p>对于终止状态的容器，ps命令已经不能看到它了，我们可以加上-a选项（表示所有）来查看，它的STATUS已经变成了Exited：</p> <div class="language- extra-class"><pre class="language-text"><code>[root@localhost ~]# docker ps
+CONTAINER ID   IMAGE                 COMMAND        CREATED       STATUS       PORTS                                       NAMES
+d37ca6bc4fa1   portainer/portainer   &quot;/portainer&quot;   2 weeks ago   Up 6 hours   0.0.0.0:8088-&gt;9000/tcp, :::8088-&gt;9000/tcp   clever_chatterjee
+[root@localhost ~]# docker ps -a
+CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                          PORTS                                                  NAMES
+6d837008de8b   ubuntu:16.04          &quot;/bin/bash&quot;              15 minutes ago   Exited (0) About a minute ago                                                          eloquent_feynman
+0bfeadb36d75   ubuntu:16.04          &quot;/bin/bash&quot;              28 minutes ago   Exited (0) 27 minutes ago                                                              zen_pare
+b5e80ee2512c   hello-world           &quot;/hello&quot;                 31 minutes ago   Exited (0) 31 minutes ago                                                              reverent_northcutt
+8f846e32670f   722b57b36507          &quot;-l&quot;                     26 hours ago     Created                                                                                xenodochial_easley
+d3791da128a8   722b57b36507          &quot;ls -a&quot;                  26 hours ago     Exited (0) 26 hours ago                                                                recursing_bohr
+7153097aa989   mycentos:0.2          &quot;/bin/sh -c /bin/bash&quot;   29 hours ago     Exited (255) 6 hours ago        80/tcp                                                 sad_tharp
+d0df6f6c7ad2   centos                &quot;/bin/bash&quot;              29 hours ago     Exited (127) 29 hours ago                                                              friendly_booth
+3399aab28488   diytomcat             &quot;/bin/sh -c '/usr/lo…&quot;   8 days ago       Exited (255) 6 hours ago        0.0.0.0:9090-&gt;8080/tcp, :::9090-&gt;8080/tcp              kuangshentomcat
+b078ab3a2003   mysql:5.7             &quot;docker-entrypoint.s…&quot;   2 weeks ago      Exited (255) 6 hours ago        33060/tcp, 0.0.0.0:3310-&gt;3306/tcp, :::3310-&gt;3306/tcp   mysql01
+d37ca6bc4fa1   portainer/portainer   &quot;/portainer&quot;             2 weeks ago      Up 6 hours                      0.0.0.0:8088-&gt;9000/tcp, :::8088-&gt;9000/tcp              clever_chatterjee
+</code></pre></div><p>终止状态的容器我们可以使用<code>docker start [容器id]</code>来让它重新进入启动状态，运行中的容器我们也可以使用<code>docker restart [容器id]</code>让它重新启动。</p> <h3 id="进入容器"><a href="#进入容器" class="header-anchor">#</a> <strong>进入容器</strong></h3> <p>有时候我们会需要进入容器进行一些操作，比如进入nginx容器进行平滑重启，我们可以使用<code>docker attach</code>或者<code>docker exec</code>进入，不过推荐使用<code>exec</code>命令。</p> <p>我们首先看下如果使用attach命令：</p> <div class="language- extra-class"><pre class="language-text"><code>docker start 6d837008de8b
+</code></pre></div><p>当我们从终端exit后，整个容器会停止；而使用exec命令不会导致容器停止。</p> <p>如果只使用-i参数，由于没有分配伪终端，界面没有我们熟悉的Linux命令提示符，但是执行命令仍然可以看到运行结果；当使用-i和-t参数时，才能看到我们常见的Linux命令提示符。</p> <div class="language- extra-class"><pre class="language-text"><code>$ docker exec -i d37ca6bc4fa1 bash
+ls
+bin
+boot
+dev
+etc
+home
+lib
+pwd
+/
+
+$ docker exec -it d37ca6bc4fa1 bash
+root@d37ca6bc4fa1:/# exit
+</code></pre></div><p>需要注意的是，我们进入的容器需要是运行状态，如果不是运行状态，则会报错：</p> <div class="language- extra-class"><pre class="language-text"><code>Error response from daemon: Container d37ca6bc4fa1 is not running
+</code></pre></div><h3 id="查看容器日志"><a href="#查看容器日志" class="header-anchor">#</a> <strong>查看容器日志</strong></h3> <p>我们经常需要对容器运行过程进行一些监测，查看它的运行过程记录的日志情况，以及是否报错等等；使用logs命令获取容器的日志。</p> <div class="language- extra-class"><pre class="language-text"><code>docker logs d37ca6bc4fa1
+</code></pre></div><p>它还支持以下几个参数：</p> <ul><li>-f : 跟踪日志输出</li> <li>--since :显示某个开始时间的所有日志</li> <li>-t : 显示时间戳</li> <li>--tail :仅列出最新N条容器日志</li></ul> <p>logs命令会展示从容器启动以来的所有日志，如果容器运行时间久，会列出非常多的日志，我们可以加tail参数仅展示最新的日志记录：</p> <div class="language- extra-class"><pre class="language-text"><code># 列出最新的10条日志
+$ docker logs --tail=10 d37ca6bc4fa1
+</code></pre></div></div></section> <footer class="page-edit"><!----> <!----></footer> <!----> <div class="comments-wrapper"><!----></div></main></div> <!----></div> <ul class="sub-sidebar sub-sidebar-wrapper" style="width:12rem;" data-v-b57cc07c data-v-7dd95ae2><li class="level-2" data-v-b57cc07c><a href="/lwh-blog/handbook/Docker.html#docker简介" class="sidebar-link reco-side-docker简介" data-v-b57cc07c>Docker简介</a></li><li class="level-3" data-v-b57cc07c><a href="/lwh-blog/handbook/Docker.html#docker优势" class="sidebar-link reco-side-docker优势" data-v-b57cc07c>Docker优势</a></li><li class="level-3" data-v-b57cc07c><a href="/lwh-blog/handbook/Docker.html#基本概念" class="sidebar-link reco-side-基本概念" data-v-b57cc07c>基本概念</a></li><li class="level-2" data-v-b57cc07c><a href="/lwh-blog/handbook/Docker.html#镜像" class="sidebar-link reco-side-镜像" data-v-b57cc07c>镜像</a></li><li class="level-3" data-v-b57cc07c><a href="/lwh-blog/handbook/Docker.html#查找镜像" class="sidebar-link reco-side-查找镜像" data-v-b57cc07c>查找镜像</a></li><li class="level-3" data-v-b57cc07c><a href="/lwh-blog/handbook/Docker.html#获取镜像" class="sidebar-link reco-side-获取镜像" data-v-b57cc07c>获取镜像</a></li><li class="level-3" data-v-b57cc07c><a href="/lwh-blog/handbook/Docker.html#列出镜像" class="sidebar-link reco-side-列出镜像" data-v-b57cc07c>列出镜像</a></li><li class="level-3" data-v-b57cc07c><a href="/lwh-blog/handbook/Docker.html#删除镜像" class="sidebar-link reco-side-删除镜像" data-v-b57cc07c>删除镜像</a></li><li class="level-3" data-v-b57cc07c><a href="/lwh-blog/handbook/Docker.html#构建镜像" class="sidebar-link reco-side-构建镜像" data-v-b57cc07c>构建镜像</a></li><li class="level-2" data-v-b57cc07c><a href="/lwh-blog/handbook/Docker.html#容器" class="sidebar-link reco-side-容器" data-v-b57cc07c>容器</a></li><li class="level-3" data-v-b57cc07c><a href="/lwh-blog/handbook/Docker.html#创建启动容器" class="sidebar-link reco-side-创建启动容器" data-v-b57cc07c>创建启动容器</a></li><li class="level-3" data-v-b57cc07c><a href="/lwh-blog/handbook/Docker.html#终止容器" class="sidebar-link reco-side-终止容器" data-v-b57cc07c>终止容器</a></li><li class="level-3" data-v-b57cc07c><a href="/lwh-blog/handbook/Docker.html#进入容器" class="sidebar-link reco-side-进入容器" data-v-b57cc07c>进入容器</a></li><li class="level-3" data-v-b57cc07c><a href="/lwh-blog/handbook/Docker.html#查看容器日志" class="sidebar-link reco-side-查看容器日志" data-v-b57cc07c>查看容器日志</a></li></ul></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div></div></div>
+    <script src="/lwh-blog/assets/js/app.78067e05.js" defer></script><script src="/lwh-blog/assets/js/3.e3a1807a.js" defer></script><script src="/lwh-blog/assets/js/1.5f815b79.js" defer></script><script src="/lwh-blog/assets/js/11.f9006f70.js" defer></script>
+  </body>
+</html>
